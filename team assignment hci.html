@@ -1,0 +1,310 @@
+<html>
+    <head>
+        <title>timetables</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            html,body{
+                height: 100%;
+                background:linear-gradient(to top right,#80cbc4,#e1bee7,#80ddea,#d1c4e9);
+	 }
+            nav{
+                width: 250px;
+               
+                top: 10;
+                bottom: 10;
+                background: rgba(0,0,1,0.4);
+                border-radius: 10px;
+                box-shadow: 5px 7px 10px rgba(0,0,0,0.9);
+            }
+            nav ul{
+                position: relative;
+                list-style-type: none;
+            }
+            nav ul li a {
+                display: flex;
+                align-items: left;
+                font-family: arial;
+                font-size: 1.15em;
+                text-decoration:bold;
+                text-transform: capitalize;
+                color:
+                padding:10px 30px;
+                height: 50px;
+            }
+            nav ul li a:hover{
+                background: rgba(0,0,0,0.7);
+                color: #fff;
+            }
+            nav ul ul{
+                position: absolute;
+                left: 250px;
+                width: 200px;
+                top: 0;
+                background: rgba(155,39,176,.4);
+                border-radius: 5px;
+                box-shadow: 2px 2px 10px rgba(0,0,0,1);
+                display: none;
+            }
+            nav ul li:hover>ul{
+                display: block;
+            }
+            nav ul span{
+                position: absolute;
+                right: 20px;
+                font-size: 1.5em;
+            }
+            nav ul .dropdown{
+                position: relative;
+            }
+            nav ul .dropdown:hover>ul{
+                display: block;
+            }
+            nav ul ul li:hover>ul {
+              left: 100%;
+               top: 0;
+            }
+            nav ul ul ul {
+              max-height: 500px; 
+              overflow-y: auto;
+           }
+      </style>
+    </head>
+    <body>
+         <h1 align="center">TIME TABLE FOR CSE-STUDENTS</h1>
+        <nav>
+            <ul>
+                <div class="image">
+                    <h2 align="center">B.TECH CSE</h2>
+                </div>
+                <li class="dropdown"><a href="#">I-year<span>&rsaquo;</span></a>
+                    <ul >
+                        <li class="dropdown"><a href="#">CSE<span>&rsaquo;</span></a>
+				
+                            <ul >
+                                <li><a href="#">CSE-A</a></li>
+                                <li><a href="#">CSE-B</a></li>
+                                <li><a href="#">CSE-C</a></li>
+                                <li><a href="#">CSE-D</a></li>
+                                <li><a href="#">CSE-E</a></li>
+                                <li><a href="#">CSE-F</a></li>
+                                <li><a href="#">CSE-G</a></li>
+                                <li><a href="#">CSE-H</a></li>
+                                <li><a href="#">CSE-I</a></li>
+                                <li><a href="#">CSE-J</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#">ECE<span>&rsaquo;</span></a>
+                            <ul>
+                                <li><a href="#">ECE-A</a></li>
+                                <li><a href="#">ECE-B</a></li>
+                                <li><a href="#">ECE-C</a></li>
+                                <li><a href="#">ECE-D</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#">EEE<span>&rsaquo;</span></a>
+                            <ul>
+                                <li><a href="#">EEE-A</a></li>
+                                <li><a href="#">EEE-B</a></li>
+                                <li><a href="#">EEE-C</a></li>
+                                <li><a href="#">EEE-D</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#">CIVIL<span>&rsaquo;</span></a>
+                            <ul>
+                                <li><a href="#">CIVIL-A</a></li>
+                                <li><a href="#">CIVIL-B</a></li>
+                                <li><a href="#">CIVIL-C</a></li>
+                                <li><a href="#">CIVIL-D</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#">MECHANICAL<span>&rsaquo;</span></a>
+                            <ul>
+                                <li><a href="#">MECH-A</a></li>
+                                <li><a href="#">MECH-B</a></li>
+                                <li><a href="#">MECH-C</a></li>
+                                <li><a href="#">MECH-D</a></li>
+                                
+                            </ul>
+                        </li>
+                    </ul>
+              </li>
+                <li class="dropdown"><a href="#">II-year<span>&rsaquo;</span></a>
+                    <ul>
+                        <li class="dropdown"><a href="#">CSE<span>&rsaquo;</span></a>
+                            <ul>
+                                <li><a href="C:/Users/Sadhvik/Desktop/2CSE-A.html">2-CSE-A</a></li>
+                                <li><a href="C:/Users/Sadhvik/Desktop/2CSE-B.html">2-CSE-B</a></li>
+                                <li><a href="C:/Users/Sadhvik/Desktop/2CSE-C.html">2-CSE-C</a></li>
+                                <li><a href="C:/Users/Sadhvik/Desktop/2CSE-D.html">2-CSE-D</a></li>
+                                <li><a href="C:/Users/Sadhvik/Desktop/2CSE-E.html">2-CSE-E</a></li>
+                                <li><a href="C:/Users/Sadhvik/Desktop/2CSE-F.html">2-CSE-F</a></li>
+                                <li><a href="C:/Users/Sadhvik/Desktop/2CSE-G.html">2-CSE-G</a></li>
+                                <li><a href="C:/Users/Sadhvik/Desktop/2CSE-G.html">2-CSE-G</a></li>
+                                <li><a href="C:/Users/Sadhvik/Desktop/2CSE-H.html">2-CSE-I</a></li>
+                                <li><a href="C:/Users/Sadhvik/Desktop/2CSE-I.html">2-CSE-J</a></li>
+                                <li><a href="C:/Users/Sadhvik/Desktop/2CSE-K.html">2-CSE-K</a></li>
+                                <li><a href="C:/Users/Sadhvik/Desktop/2CSE-L.HTML">2-CSE-L</a></li>
+                                <li><a href="C:/Users/Sadhvik/Desktop/2CSE-M.HTML">2-CSE-M</a></li>
+                                <li><a href="C:/Users/Sadhvik/Desktop/2CSE-N.html">2-CSE-N</a></li>
+                                <li><a href="C:/Users/Sadhvik/Desktop/2-CSE-O.html">2-CSE-O</a></li>
+                                <li><a href="C:/Users/Sadhvik/Desktop/2CSE-AIML-A.html">2-AIML-A</a></li>
+                                <li><a href="C:/Users/Sadhvik/Desktop/2CSE-AIML-B.html">2-AIML-B</a></li>
+                                <li><a href="C:/Users/Sadhvik/Desktop/2CSE-AIML-C.html">2-AIML-C</a></li>
+                                <li><a href="C:/Users/Sadhvik/Desktop/2CSE-AIML-D.html">2-AIML-D</a></li>
+                                <li><a href="C:/Users/Sadhvik/Desktop/2 CSE DS&CS.html">2-DS&CS</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#">ECE<span>&rsaquo;</span></a>
+                            <ul>
+                                <li><a href="#">ECE-A</a></li>
+                                <li><a href="#">ECE-B</a></li>
+                                <li><a href="#">ECE-C</a></li>
+                                <li><a href="#">ECE-D</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#">EEE<span>&rsaquo;</span></a>
+                            <ul>
+                                <li><a href="#">EEE-A</a></li>
+                                <li><a href="#">EEE-B</a></li>
+                                <li><a href="#">EEE-C</a></li>
+                                <li><a href="#">EEE-D</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#">CIVIL<span>&rsaquo;</span></a>
+                            <ul>
+                                <li><a href="#">CIVIL-A</a></li>
+                                <li><a href="#">CIVIL-B</a></li>
+                                <li><a href="#">CIVIL-C</a></li>
+                                <li><a href="#">CIVIL-D</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#">MECHANICAL<span>&rsaquo;</span></a>
+                            <ul>
+                                <li><a href="#">MECH-A</a></li>
+                                <li><a href="#">MECH-B</a></li>
+                                <li><a href="#">MECH-C</a></li>
+                                <li><a href="#">MECH-D</a></li>
+                                
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="#">III-year<span>&rsaquo;</span></a>
+                    <ul>
+                        <li><a href="#">CSE</a>
+                            <ul>
+                                <li><a href="#">CSE-A</a></li>
+                                <li><a href="#">CSE-B</a></li>
+                                <li><a href="#">CSE-C</a></li>
+                                <li><a href="#">CSE-D</a></li>
+                                <li><a href="#">CSE-E</a></li>
+                                <li><a href="#">CSE-F</a></li>
+                                <li><a href="#">CSE-G</a></li>
+                                <li><a href="#">CSE-H</a></li>
+                                <li><a href="#">CSE-I</a></li>
+                                <li><a href="#">CSE-J</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">ECE</a>
+                            <ul>
+                                <li><a href="#">ECE-A</a></li>
+                                <li><a href="#">ECE-B</a></li>
+                                <li><a href="#">ECE-C</a></li>
+                                <li><a href="#">ECE-D</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li><a href="#">EEE</a>
+                            <ul>
+                                <li><a href="#">EEE-A</a></li>
+                                <li><a href="#">EEE-B</a></li>
+                                <li><a href="#">EEE-C</a></li>
+                                <li><a href="#">EEE-D</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">CIVIL</a>
+                            <ul>
+                                <li><a href="#">CIVIL-A</a></li>
+                                <li><a href="#">CIVIL-B</a></li>
+                                <li><a href="#">CIVIL-C</a></li>
+                                <li><a href="#">CIVIL-D</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">MECHANICAL</a>
+                            <ul>
+                                <li><a href="#">MECH-A</a></li>
+                                <li><a href="#">MECH-B</a></li>
+                                <li><a href="#">MECH-C</a></li>
+                                <li><a href="#">MECH-D</a></li>
+                                
+                            </ul>
+                        </li>
+                    </ul>
+              </li>
+                <li class="dropdown"><a href="#">IV-year<span>&rsaquo;</span></a>
+                    <ul>
+                        <li><a href="#">CSE</a>
+                            <ul>
+                                <li><a href="#">CSE-A</a></li>
+                                <li><a href="#">CSE-B</a></li>
+                                <li><a href="#">CSE-C</a></li>
+                                <li><a href="#">CSE-D</a></li>
+                                <li><a href="#">CSE-E</a></li>
+                                <li><a href="#">CSE-F</a></li>
+                                <li><a href="#">CSE-G</a></li>
+                                <li><a href="#">CSE-H</a></li>
+                                <li><a href="#">CSE-I</a></li>
+                                <li><a href="#">CSE-J</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">ECE</a>
+                            <ul>
+                                <li><a href="#">ECE-A</a></li>
+                                <li><a href="#">ECE-B</a></li>
+                                <li><a href="#">ECE-C</a></li>
+                                <li><a href="#">ECE-D</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li><a href="#">EEE</a>
+                            <ul>
+                                <li><a href="#">EEE-A</a></li>
+                                <li><a href="#">EEE-B</a></li>
+                                <li><a href="#">EEE-C</a></li>
+                                <li><a href="#">EEE-D</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li><a href="#">CIVIL</a>
+                            <ul>
+                                <li><a href="#">CIVIL-A</a></li>
+                                <li><a href="#">CIVIL-B</a></li>
+                                <li><a href="#">CIVIL-C</a></li>
+                                <li><a href="#">CIVIL-D</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">MECHANICAL</a>
+                            <ul>
+                                <li><a href="#">MECH-A</a></li>
+                                <li><a href="#">MECH-B</a></li>
+                                <li><a href="#">MECH-C</a></li>
+                                <li><a href="#">MECH-D</a></li>
+                                
+                            </ul>
+                        </li>
+                    </ul>
+              </li>
+            </ul>
+        </nav>
+    </body>
+</html>
